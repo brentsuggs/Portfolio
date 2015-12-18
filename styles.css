@@ -44,6 +44,7 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+    font-size: 1.25em;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/houston1.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +75,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(5.7deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +87,8 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  /*color: yellow;*/
+  color: #00E0A1;
 }
 .card {
   margin: 30px;
@@ -99,7 +101,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #00E0A1;
 }
 
 ul.skills {
@@ -110,14 +112,36 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #1479B3;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #734187;
+}
+
+ul.contacts {
+  padding: 0;
+  text-align: center;
+}
+
+.contacts li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #1479B3;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.contacts li:hover {
+  background: #734187;
+}
+
+.contacts a {
+  color: white;
 }
 
 footer {
